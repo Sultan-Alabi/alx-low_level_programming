@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Beginning
+ * main - Entry point
  *
- * Description: puts command
- *
- * return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 
-/* void indicate the function dont need argument */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
