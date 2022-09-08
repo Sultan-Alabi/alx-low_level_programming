@@ -1,1 +1,1 @@
-assembler script
+name script
