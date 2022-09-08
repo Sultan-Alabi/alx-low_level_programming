@@ -1,1 +1,1 @@
-101-quote.c
+100-intel
