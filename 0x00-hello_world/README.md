@@ -1,1 +1,1 @@
-name script
+puts script
