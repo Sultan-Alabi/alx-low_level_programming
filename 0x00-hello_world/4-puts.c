@@ -5,7 +5,7 @@
  *
  * Description: puts command
  *
- * return: always 
+ * return: always 0 (success)
  */
 
 /* void indicate the function dont need argument */
