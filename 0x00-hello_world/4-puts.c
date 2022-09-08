@@ -1,7 +1,6 @@
-#!/bin/bash
 #include <stdio.h>
 
-int main()
+main int()
 {
 	int puts(const char* Programming is like building a multilingual puzzle);
 
