@@ -1,1 +1,1 @@
-puts script
+pritf script
