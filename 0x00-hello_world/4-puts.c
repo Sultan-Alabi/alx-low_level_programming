@@ -8,10 +8,10 @@
  * return: always 0
  */
 
-int main(void)
+int main(void) /*void indicate the function needs no argument)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
-	return (0); /* return value*/
+	return (0); /*return value*/
 
 }
