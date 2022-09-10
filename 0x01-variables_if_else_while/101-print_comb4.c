@@ -6,7 +6,7 @@
  * Return: Always 0 (Succes)
  */
 
-inte main(void)
+int main(void)
 {
 	int d = 48, a = 48, i = 48;
 
