@@ -27,9 +27,9 @@ int main(void)
 					putchar(' '):
 				}
 			}
-			a++
+			a++;
 		}
-		d++
+		d++;
 	}
 	putchar('\n');
 	return (0);
