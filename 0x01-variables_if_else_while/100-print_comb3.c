@@ -24,7 +24,7 @@ int main(void)
 				if (!(d == 56 && a == 57))
 				{
 					putchar(',');
-					putchar(' '):
+					putchar(' ');
 				}
 			}
 			a++;
