@@ -3,6 +3,8 @@
 /**
  * _islower - Start point
  *
+ * c - argument
+ *
  * Return: Always 0 (Success)
  */
 
