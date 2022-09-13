@@ -4,7 +4,7 @@
  * _islower - Start point
  *
  * @c: input paremeter
- * 
+ *
  * Return: Always 0 (Success)
  */
 
