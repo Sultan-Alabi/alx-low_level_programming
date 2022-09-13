@@ -8,7 +8,7 @@
  * Return: 1 (Succerss) 0 (Not)
  */
 
-int _isalpha(void)
+int _isalpha(int c)
 {
 	if ((c > 96 && c < 123) || (c > 64 && c <91))
 	{
