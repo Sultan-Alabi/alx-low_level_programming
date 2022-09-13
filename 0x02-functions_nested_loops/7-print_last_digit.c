@@ -3,7 +3,7 @@
 /**
  * print_last_digit - print last digit
  *
- * @n - input paratmeter
+ * @n: integer parameter
  *
  * Return: 1, 0
  */
