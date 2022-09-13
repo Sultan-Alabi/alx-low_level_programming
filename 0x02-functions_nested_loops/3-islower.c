@@ -3,8 +3,8 @@
 /**
  * _islower - Start point
  *
- * int c - argument
- *
+ * @c: input paremeter
+ * 
  * Return: Always 0 (Success)
  */
 
