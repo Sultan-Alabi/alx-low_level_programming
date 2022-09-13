@@ -24,7 +24,7 @@ void jack_bauer(void)
 		if (d > 9)
 		{
 			d = 0;
-			c++
+			c++;
 		}
 		if (c > 5)
 		{
@@ -33,7 +33,7 @@ void jack_bauer(void)
 		}
 		if (b > 9)
 		{
-			b = ;
+			b = 0;
 			a++;
 		}
 		x++;
