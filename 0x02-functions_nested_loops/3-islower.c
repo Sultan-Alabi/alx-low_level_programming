@@ -3,7 +3,7 @@
 /**
  * _islower - Start point
  *
- * c - argument
+ * int c - argument
  *
  * Return: Always 0 (Success)
  */
