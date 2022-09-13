@@ -14,7 +14,7 @@ int main(void)
 	size = sizeof(array) / sizeof(int);
 	for (spell = 0; spell < size; spell++)
 	{
-		_putchar(ptc[spell]);
+		_putchar(array[spell]);
 	}
 	_putchar('\n');
 	
