@@ -6,9 +6,9 @@
  * Return: Always 0 (Success)
  */
 
-int main(0)
+int main(void)
 {
 	int i;
-	i = _putchar(_putchar;)
+	i = _putchar('_putchar');
 	return (0);
 }
