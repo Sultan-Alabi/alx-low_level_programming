@@ -17,6 +17,5 @@ int main(void)
 		_putchar(array[spell]);
 	}
 	_putchar('\n');
-	
 	return (0);
 }
