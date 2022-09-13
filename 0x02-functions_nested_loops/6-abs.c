@@ -3,9 +3,9 @@
 /**
  * int _abs(int) - Starting point
  *
- * _abs - absolute value
+ * @_abs - absolute value
  *
- * n: input paramter
+ * @n: input paramter
  *
  * Return: 0, 1
  */
