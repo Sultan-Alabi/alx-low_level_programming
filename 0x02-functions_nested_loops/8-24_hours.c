@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - Start point
- * 
  * Return: void
  */
 
@@ -14,7 +13,7 @@ void jack_bauer(void)
 	while (x < 1440)
 	{
 		_putchar(a + '0');
-		_putchar(b +'0');
+		_putchar(b + '0');
 		_putchar(':');
 		_putchar(c + '0');
 		_putchar(d + '0');
