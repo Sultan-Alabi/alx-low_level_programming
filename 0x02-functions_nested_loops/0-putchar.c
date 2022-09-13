@@ -8,15 +8,14 @@
 
 int main(void)
 {
-	int i;
+	int array[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int spell, size;
 
-	i = _putchar(_putchar);
-	
-	while (n = 0, n < 8, n++)
+	size = sizeof(array) / sizeof(int);
+	for (spell = 0; spell < size; spell++)
 	{
-		_putchar([n]);
+		_putchar(ptc[spell]);
 	}
-
 	_putchar('\n');
 	
 	return (0);
