@@ -3,6 +3,8 @@
 /**
  * _isupper - Start point
  *
+ * @c: input parameter
+ *
  * Return: Returns 1 if c is uppercase
  */
 
@@ -18,5 +20,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	return (c);
 }
