@@ -2,13 +2,12 @@
 
 /**
  * mul - Starting point
- * @a: input parameter
- * @b: input parameeter
- * @c: output paramter
- * Return: 1 & 0
+ * @a: input
+ * @b: input
+ * Return: answer
  */
 
 int mul(int a, int b)
 {
-	return (a * b);
+	return(a * b);
 }
