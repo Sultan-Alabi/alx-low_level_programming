@@ -10,7 +10,7 @@ int _isupper(int c)
 {
 	char c;
 
-	if ((c => 'A') && (c <= 'Z'))
+	if ((c => 65 && c <= 90))
 	{
 		return (1);
 	}
@@ -18,5 +18,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	return (0);
+	return (c);
 }
