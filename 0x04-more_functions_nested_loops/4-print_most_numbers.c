@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Starting
- * @j: input
+ *
  * Return: Answer
  */
 
