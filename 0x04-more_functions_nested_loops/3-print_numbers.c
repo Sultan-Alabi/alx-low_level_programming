@@ -2,17 +2,17 @@
 
 /**
  * print_numbers - Start point
- * i: input parameter
+ *
  * Return: Answer
  */
 
 void print_numbers(void)
 {
-	int j;
+	int i;
 
-	for (j = 48; j < 58; j++)
+	for (i = 48; i < 58; i++)
 	{
-		_putchar(j = '0');
+		_putchar(i);
 	}
 	_putchar('\n');
 }
