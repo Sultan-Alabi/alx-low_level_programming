@@ -3,6 +3,8 @@
 /**
  * print_triangle - Starting point
  *
+ * @size: to draw
+ *
  * Return: Answer
  */
 void print_triangle(int size)
@@ -15,7 +17,7 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (i= 0; i <= (size - 1); i++)
+		for (i = 0; i <= (size - 1); i++)
 		{
 			for (j = 0; j <= (size - 1) - i; j++)
 			{
