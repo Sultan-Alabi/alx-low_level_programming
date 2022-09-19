@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98: Starting point
- * @n: input
+ * reset_to_98 - Pointer to a paramter
+ * @n: input parameter
  * Return: Answer
  */
 
