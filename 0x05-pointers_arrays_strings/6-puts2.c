@@ -23,4 +23,5 @@ void puts2(char *str)
 			count++;
 		}
 	}
+	return (0);
 }
