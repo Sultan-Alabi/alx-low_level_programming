@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @_strcat - Starting point
+ * _strcat - Starting point
  * @dest: input
  * @src: input
  * @n: input
