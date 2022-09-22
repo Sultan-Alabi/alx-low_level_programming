@@ -2,27 +2,25 @@
 
 /**
  * rot13 - Starting point
- * @n: input
+ * @str: input
  * Return: Answer
  */
 
-char *rot13(char *n)
+char *rot13(char *str)
 {
-	int i = 0, i2 = 0;
-	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char alpha2[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
-
-	while (*(s + i) != 0)
+	int index1, index2;
+	char alpha[52] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	char rot13[52] = {'N', 'O', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
+	while (str[++index1])
 	{
-		for (i2 = 0; i2 <= 52; i2++)
+		for (index2 = 0; index2 < 52; index2++)
 		{
-			if (*(s + i) == alpha[i2])
+			if (str[index1] == alpha[index2])
 			{
-				*(s + i) = alpha2[i2];
+				str[index1] = rot13[index2];
 				break;
 			}
 		}
-		i++
 	}
-	return (s);
+	return (str);
 }
