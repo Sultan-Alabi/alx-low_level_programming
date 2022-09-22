@@ -4,11 +4,10 @@
  * _strcat - Starting point
  * @dest: input
  * @src: input
- * @n: input
  * Return: Answer
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i = 0, j = 0;
 
