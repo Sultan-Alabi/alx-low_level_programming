@@ -24,5 +24,5 @@ char *rot13(char *n)
 		}
 		i++
 	}
-	retun (s);
+	return (s);
 }
