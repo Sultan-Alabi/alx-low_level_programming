@@ -2,27 +2,27 @@
 
 /**
  * rot13 - Starting point
- * @str: input
+ * @c: input
  * Return: Answer
  */
 
-char *rot13(char *str)
+char *rot13(char *c)
 {
-	int index1, index2;
-	char alpha[52] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	char rot13[52] = {'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
+	int i, j;
+	char rot_13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm",
+	     alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-	while (str[++index1])
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		for (index2 = 0; index2 < 52; index2++)
+		for (j = 0; j < 52; j++)
 		{
-			if (str[index1] == alpha[index2])
+			if (alphabet[j] == c[i])
 			{
-				str[index1] = rot13[index2];
+				c[i] = rot_13[j];
 				break;
 			}
 		}
-		index1++;
+
 	}
-	return (str);
+	return (c);
 }
